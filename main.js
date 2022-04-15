@@ -10,7 +10,7 @@ if (userInput === "Deposit" || userInput === "deposit") {
     alert(`Your new balance is: $${balance}`)
 } else if (userInput === "Withdraw" || userInput === "withdraw") {
     withdrawAmount = window.prompt("How much would you like to withdraw?");
-    balance = Number(balance) - Number(withdraw)
+    balance = Number(balance) - Number(withdrawAmount)
     alert(`Your new balance is: $${balance}`)
 } else {
     alert("Your input was invalid")
